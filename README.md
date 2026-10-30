@@ -3,7 +3,7 @@
 Calculadora web que gera tabelas verdade a partir de listas de valores binários.
 Feita com HTML, CSS e JavaScript puro.
 
-🔗 **Site:** [[link do GitHub Pages](https://pablosweb.github.io/tabela-verdade-booleana/)]
+🔗 **Site:** [[tabela-verdade-booleana](https://pablosweb.github.io/tabela-verdade-booleana/)]
 
 ![Print do site](imagem/print.png)
 
