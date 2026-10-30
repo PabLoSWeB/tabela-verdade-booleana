@@ -21,7 +21,7 @@ body {
 @media (max-width: 600px) {
   #explicacao { margin: 16px; }
   #explicacaoOperacoes { margin: 16px 8px; padding: 8px; }
-  #exemploOperacoes { margin: 10px 0; }
+  #exemploOperacoes { margin: 10px 0; overflow-x: auto;}
   th, td { padding: 6px 3px; font-size: 0.8rem; }
 }
 
