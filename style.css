@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  margin: 0px auto;
+  background-color: #fff;
+  background-image:
+    linear-gradient(#e5e7eb 1px, transparent 1px),
+    linear-gradient(90deg, #e5e7eb 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@media (max-width: 600px) {
+  #explicacao,
+  #exemploOperacoes,
+  #explicacaoOperacoes {
+    margin: 16px;
+  }
+  .tabela-scroll {
+    overflow-x: auto;
+  }
+}
+
+header {
+  text-align: center;
+}
+
+.formatacaoTamn {
+  width: 115px;
+  padding: 3px;
+  margin-right: 5px;
+}
+
+#botaoA,
+#botaoB {
+  background-color: #dbeafe;
+  color: #224669;
+  padding: 7px;
+  border: #224669 solid 1px;
+  border-radius: 5px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+#botaoA:hover,
+#botaoB:hover {
+  background-color: #bfdbfe;
+  border-radius: 7px;
+}
+
+#formatacaoVerificar,
+#formatacaoLimpar {
+  background-color: #224669;
+  color: white;
+  padding: 11px;
+  margin: 5px;
+  border: none;
+  border-radius: 18px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+#formatacaoLimpar {
+  background-color: white;
+  color: #b91c1c;
+  border: #b91c1c solid 1px;
+}
+
+#formatacaoVerificar:hover {
+  background-color: #2c3e50;
+  padding-block: 12px;
+}
+
+#formatacaoLimpar:hover {
+  background-color: #fee2e2;
+}
+
+#explicacao p {
+  text-align: justify;
+  margin: 30px 80px;
+  line-height: 1.6;
+}
+
+#exemploOperacoes {
+  background-color: rgba(245, 244, 244, 0.781);
+  border: 1px solid rgba(0, 0, 0, 0.221);
+  border-radius: 10px;
+  text-align: center;
+  color: #224669;
+  margin: 10px 150px;
+  padding: 13px 0px;
+}
+
+#explicacaoOperacoes {
+  background-color: rgba(245, 244, 244, 0.781);
+  border: 1px solid rgba(0, 0, 0, 0.221);
+  border-radius: 10px;
+  margin: 60px 80px 40px;
+  padding: 10px;
+}
+
+#explicacaoOperacoes h2 {
+  color: #224669;
+  margin-left: 8px;
+  text-decoration: underline;
+}
+
+#explicacaoOperacoes li {
+  padding: 6px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px auto;
+  max-width: 600px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+caption {
+  border: 1px solid #ccc;
+  padding: 8px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+#tabelaPrincipal tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#rodape {
+  background-color: #bfdbfe66;
+  border: 1px solid rgba(0, 0, 0, 0.221);
+  border-radius: 10px;
+  margin: auto;
+  width: max-content;
+  text-align: center;
+  padding: 10px;
+}
+
+#rodape a {
+  margin: 4px;
+  padding-bottom: 20px;
+}
