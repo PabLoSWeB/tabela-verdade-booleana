@@ -9,15 +9,20 @@ body {
   background-size: 24px 24px;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+#res {
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
-  #explicacao,
-  #exemploOperacoes,
-  #explicacaoOperacoes {
-    margin: 16px;
-  }
-  .tabela-scroll {
-    overflow-x: auto;
-  }
+  #explicacao { margin: 16px; }
+  #explicacaoOperacoes { margin: 16px 8px; padding: 8px; }
+  #exemploOperacoes { margin: 10px 0; }
+  th, td { padding: 6px 3px; font-size: 0.8rem; }
 }
 
 header {
@@ -86,8 +91,8 @@ header {
   border-radius: 10px;
   text-align: center;
   color: #224669;
-  margin: 10px 150px;
-  padding: 13px 0px;
+  
+
 }
 
 #explicacaoOperacoes {
